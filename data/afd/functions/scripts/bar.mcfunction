@@ -1,0 +1,2 @@
+/execute if entity @e[type=pillager, tag=entity.bosses.pillager] run execute as entity @e[type=pillager, tag=entity.bosses.pillager] store result bossbar raid_boss value run data get entity @s minecraft:health
+/execute if entity @e[type=pillager, tag=entity.bosses.pillager] run execute as entity @e[type=pillager, tag=entity.bosses.pillager] store result bossbar raid_boss max run data get entity @s minecraft:max_health
