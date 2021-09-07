@@ -1,3 +1,0 @@
-camerashake @a 4 6 rotational
-particle minecraft:huge_explosion_emitter ~~~
-playsound random.explode @a ~~~ 10 1
