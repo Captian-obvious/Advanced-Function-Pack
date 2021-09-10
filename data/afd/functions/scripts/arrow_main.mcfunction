@@ -1,5 +1,2 @@
-function afd:scripts/explosive_arrow
-function afd:scripts/compact_explosive_arrow
-function afd:scripts/super_compact_explosive_arrow
-function afd:scripts/electric_arrow
-function afd:scripts/compact_electric_arrow
+function afd:scripts/arrow_gives
+function afd:scripts/repeating_command
