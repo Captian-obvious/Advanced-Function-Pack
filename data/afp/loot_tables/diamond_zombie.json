@@ -2,12 +2,18 @@
   "type": "entity",
   "pools": [
     {
-      "rolls": 1,
-      "bonus_rolls": 3,
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "bonus_rolls": {
+        "min": 3,
+        "max": 5
+      },
       "entries": [
         {
           "type": "item",
-          "weight": 60,
+          "weight": 100,
           "name": "minecraft:diamond",
           "functions": [
             {
@@ -21,7 +27,44 @@
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 10,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "bonus_rolls": {
+        "min": 3,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
           "name": "minecraft:diamond",
           "functions": [
             {
@@ -33,13 +76,13 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{}]}"
+              "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:2,UUID:[I;-1005284287,-350927613,-1299172795,-356765249]}]}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "translate": "Rare Diamond",
+                  "text": "Rare Diamond",
                   "color": "gold",
                   "bold": "false",
                   "italic": "false",
