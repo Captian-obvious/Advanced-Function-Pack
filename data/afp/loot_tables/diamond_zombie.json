@@ -18,7 +18,10 @@
           "functions": [
             {
               "function": "set_count",
-              "count": 0
+              "count": {
+                "min": 0,
+                "max": 3
+              }
             }
           ]
         }
@@ -59,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-2014447450,-782808806,-2034572055,-733785414],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-147723306,-1774960302,-1212073580,740107337],Slot:\"offhand\"}]}"
+              "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-782361767,-1996470078,-1610325737,80684085],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-1186071129,238242615,-1207033200,1209344438],Slot:\"offhand\"}]}"
             },
             {
               "function": "set_name",
