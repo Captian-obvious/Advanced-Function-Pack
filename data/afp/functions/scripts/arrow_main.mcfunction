@@ -1,2 +1,2 @@
-function afd:scripts/arrow_gives
-function afd:scripts/repeating_command
+function afp:scripts/arrow_gives
+function afp:scripts/repeating_command
