@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 3,
-        "max": 5
+        "min": 1,
+        "max": 3
       },
       "bonus_rolls": {
         "min": 3,
@@ -18,24 +18,7 @@
           "functions": [
             {
               "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              }
+              "count": 0
             }
           ]
         }
@@ -43,17 +26,17 @@
     },
     {
       "rolls": {
-        "min": 3,
-        "max": 5
+        "min": 1,
+        "max": 3
       },
       "bonus_rolls": {
         "min": 3,
-        "max": 10
+        "max": 5
       },
       "entries": [
         {
           "type": "item",
-          "weight": 50,
+          "weight": 100,
           "name": "minecraft:air",
           "functions": [
             {
@@ -64,19 +47,19 @@
         },
         {
           "type": "item",
-          "weight": 7,
+          "weight": 5,
           "name": "minecraft:diamond",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 2
               }
             },
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:2,UUID:[I;-1005284287,-350927613,-1299172795,-356765249]}]}"
+              "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-2014447450,-782808806,-2034572055,-733785414],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1.5,Operation:2,UUID:[I;-147723306,-1774960302,-1212073580,740107337],Slot:\"offhand\"}]}"
             },
             {
               "function": "set_name",
