@@ -1,4 +1,0 @@
-give @p netherite_sword
-function scripts/sword
-give @p bow
-function scripts/bow

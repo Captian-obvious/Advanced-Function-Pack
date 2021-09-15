@@ -1,2 +1,0 @@
-execute at @a run execute if entity @p[nbt={SelectedItem:{id:"minecraft:bow",Count:1b,tag:{display:{Lore:['{"text":"Explosive Touch I","color":"dark_red","bold":false,"italic":false,"underlined":false}']}] run execute as @e[type=arrow,nbt={inGround:1b}] run execute at @e[type=arrow,nbt={inGround:1b}] run summon creeper ~ ~ ~ {ExplosionRadius:3b,Fuse:0,ignited:1b}
-execute at @a run kill @e[type=arrow,nbt={inGround:1b}]
