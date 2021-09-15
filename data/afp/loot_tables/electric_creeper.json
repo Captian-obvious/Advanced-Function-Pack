@@ -24,20 +24,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:gunpowder",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
         }
       ]
     },
@@ -48,12 +34,12 @@
       },
       "bonus_rolls": {
         "min": 3,
-        "max": 10
+        "max": 6
       },
       "entries": [
         {
           "type": "item",
-          "weight": 50,
+          "weight": 100,
           "name": "minecraft:air",
           "functions": [
             {
@@ -64,7 +50,7 @@
         },
         {
           "type": "item",
-          "weight": 7,
+          "weight": 5,
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
@@ -76,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:3b,Amplifier:2b,Duration:1200,ShowParticles:1b},{Id:24b,Amplifier:1b,Duration:1200}],Potion:\"minecraft:water\",CustomPotionColor:3900415}"
+              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:3b,Amplifier:2b,Duration:1200,ShowParticles:1b},{Id:24b,Amplifier:1b,Duration:1200}],Potion:\"minecraft:water\",CustomPotionColor:3900415}"
             },
             {
               "function": "set_name",
