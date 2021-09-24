@@ -6,4 +6,4 @@ bossbar set herobrine_boss visible true
 scoreboard objectives add tick dummy {"translate":"Tick","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives add pound dummy {"translate":"Pound","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives setdisplay sidebar true
-function afp:scripts/herobrine_main
+function afp:scripts/herobrine/herobrine_main
