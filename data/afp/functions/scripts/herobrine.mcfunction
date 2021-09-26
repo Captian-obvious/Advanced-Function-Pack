@@ -11,5 +11,6 @@ scoreboard players @a set explode 150
 scoreboard players @a set lightning 200
 scoreboard objectives setdisplay sidebar tick
 scoreboard objectives setdisplay sidebar pound
+scoreboard objectives setdisplay sidebar explode
 scoreboard objectives setdisplay sidebar lightning
 function afp:scripts/herobrine_main
