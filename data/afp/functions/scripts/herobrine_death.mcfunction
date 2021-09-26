@@ -1,4 +1,4 @@
-scoreboard players reset set @a pound
+scoreboard players reset @a pound
 scoreboard players reset @a explode
 scoreboard players reset @a lightning
 execute as @a at @s playsound entity.ender_dragon.death master @a ~ ~ ~
