@@ -10,7 +10,4 @@ scoreboard players set @a pound 100
 scoreboard players set @a explode 150
 scoreboard players set @a lightning 200
 scoreboard objectives setdisplay sidebar tick
-scoreboard objectives setdisplay sidebar pound
-scoreboard objectives setdisplay sidebar explode
-scoreboard objectives setdisplay sidebar lightning
 function afp:scripts/herobrine_main
