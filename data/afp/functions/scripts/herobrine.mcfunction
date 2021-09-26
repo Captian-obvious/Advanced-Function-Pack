@@ -4,9 +4,11 @@ bossbar set herobrine_boss players @a
 bossbar set herobrine_boss visible true
 scoreboard objectives add tick dummy {"translate":"Tick","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives add pound dummy {"translate":"Pound Cooldown","color":"dark_red","bold":false,"italic":false,"underlined":false}
+scoreboard objectives add explode dummy {"translate":"Explode Cooldown","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives add lightning dummy {"translate":"Lightning Cooldown","color":"dark_red","bold":false,"italic":false,"underlined":false}
-execute as @a run scoreboard players @s add lightning 150
-execute as @a run scoreboard players @s add pound 100
+scoreboard players @a set pound 100
+scoreboard players @a set explode 150
+scoreboard players @a set lightning 200
 scoreboard objectives setdisplay sidebar tick
 scoreboard objectives setdisplay sidebar pound
 scoreboard objectives setdisplay sidebar lightning
