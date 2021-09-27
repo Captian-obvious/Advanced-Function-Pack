@@ -1,7 +1,7 @@
-bossbar add herobrine_boss {"translate":"Herobrine","color":"dark_red"}
-bossbar set herobrine_boss color dark_red
-bossbar set herobrine_boss players @a
-bossbar set herobrine_boss visible true
+bossbar add boss_herobrine {"translate":"Herobrine","color":"dark_red"}
+bossbar set boss_herobrine color dark_red
+bossbar set boss_herobrine players @a
+bossbar set boss_herobrine visible true
 scoreboard objectives add tick dummy {"translate":"Tick","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives add pound dummy {"translate":"Pound Cooldown","color":"dark_red","bold":false,"italic":false,"underlined":false}
 scoreboard objectives add explode dummy {"translate":"Explode Cooldown","color":"dark_red","bold":false,"italic":false,"underlined":false}
