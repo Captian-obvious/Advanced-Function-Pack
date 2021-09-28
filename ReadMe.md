@@ -4,10 +4,8 @@ Hello, Enjoy my data pack lol.
 
 Intructions:
 --
--arrow thing-
-<br>
+-arrow thing-  
 run arrow_main function
-then in a repeat loop run repeating_command
-<br />     
+then in a repeat loop run repeating_command     
 -Other-    
 just run function <function name>
