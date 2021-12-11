@@ -10,4 +10,5 @@ scoreboard players set @a pound 100
 scoreboard players set @a explode 150
 scoreboard players set @a lightning 200
 scoreboard objectives setdisplay sidebar tick
+give @p minecraft:zombie_spawn_egg{display:{Name:'[{"text":"Herobrine","color":"dark_red","bold":true,"italic":false,"underlined":false},{"text":" ","color":"reset"},{"text":"Spawn Egg","color":"reset","bold":false,"italic":false,"underlined":false}]'},EntityTag:{id:"minecraft:armor_stand",Tags:["summon_herobrine"]}} 64
 function afp:scripts/herobrine_main
